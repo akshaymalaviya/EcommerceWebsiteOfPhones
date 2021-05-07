@@ -1,0 +1,137 @@
+<html>
+<head>
+    <title>ROG3</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li class="font"><a href="home.html" >Home</a></li>
+                    <li class="font"><a href="#" >Phones</a>
+                    <div class="submenu">
+                            <ul>
+                                <li><a href="OnePlus%208.html" >OnePlus 8</a></li>
+                                <li><a href="Note%209%20pro.html" >Redmi Note 9 Pro</a></li>
+                                <li><a href="Realme3.html" >Realme 3</a></li>
+                                <li><a href="M30.html" >Samsung M30</a></li>
+                                <li><a href="POCO%20M2%20pro.html" >POCO M2 Pro</a></li>
+                                <li><a href="Narzo20.html" >Narzo 20</a></li>
+                                <li><a href="oppoF19.html" >Oppo F19</a></li>
+                                <li><a href="GalaxyF41.html" >Galaxy F41</a></li>
+                                <li><a href="Pixel4A.html" >Pixel 4A</a></li>
+                                <li><a href="Realme7i.html" >Realme 7i</a></li>
+                                <li><a href="Reno5Pro.html" >Reno 5 Pro</a></li>
+                                <li><a href="VivoX60Pro.html" >Vivo X60 Pro</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="information">
+           <img src="images/ROG3.jpeg" class="mobile">
+            <div id="circle">
+                <div class="feature one">
+                    <img src="images/camera.png" >
+                    <div>
+                        <h1>Camera</h1>
+                        <p>64MP + 13MP + 5MP</p>
+                    </div>
+                </div>
+                <div class="feature two">
+                    <img src="images/battery.png" >
+                    <div>
+                        <h1>Battery</h1>
+                        <p>6000mAh</p>
+                    </div>
+                </div>
+                <div class="feature three">
+                    <img src="images/display.png" >
+                    <div>
+                        <h1>Display</h1>
+                        <p>6.59" FHD+ Amulate display</p>
+                    </div>
+                </div>
+                <div class="feature four">
+                    <img src="images/processor.png" >
+                    <div>
+                        <h1>Processor</h1>
+                        <p>Snapdragon 865+ Processor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="controls">
+            <img src="images/arrow.png" id="up">
+            <h3>Features</h3>
+            <img src="images/arrow.png" id="down">
+        </div>
+    </div>
+    <table>
+       
+        <tr>
+            <th colspan="2" class="header">INFORMATION</th>
+        </tr>
+        <tr>
+            <th><h3>Phone</h3></th>
+            <th><h3>ROG 3</h3></th>
+        </tr>
+        <tr>
+            <td>Display </td>
+            <td>6.59-inch</td>
+        </tr>
+        <tr>
+            <td>Processor </td>
+            <td>Snapdragon 865+ Processor</td>
+        </tr>
+        <tr>
+            <td>Front Camera</td>
+            <td>24MP</td>
+        </tr>
+        <tr>
+            <td>Rear Camera</td>
+            <td>64MP + 13MP + 5MP</td>
+        </tr>
+        <tr>
+            <td>RAM</td>
+            <td>12GB</td>
+        </tr>
+        <tr>
+            <td>Storage</td>
+            <td>128GB</td>
+        </tr>
+        <tr>
+            <td>Battery Capacity</td>
+            <td>6000mAh</td>
+        </tr>
+         <tr>
+            <td>Android Version</td>
+            <td>Android 10</td>
+        </tr>
+    </table>
+    <a href="https://www.flipkart.com/asus-rog-phone-3-black-128-gb/p/itmf8623d755871d?pid=MOBFUXPBV3TFMPAH&lid=LSTMOBFUXPBV3TFMPAH63D3RA&marketplace=FLIPKART&q=rog+3&store=tyy%2F4io&srno=s_1_2&otracker=search&otracker1=search&fm=SEARCH&iid=27909688-aaeb-45c3-a268-5ba336194214.MOBFUXPBV3TFMPAH.SEARCH&ppt=pp&ppn=pp&ssid=8uuyy5dr280000001619446916935&qH=7a548772674ba31c" target="_blank"><input  type="button" class="link1" value="Check Out" ></a>
+
+    <script>
+        var circle = document.getElementById("circle");
+        var up = document.getElementById("up");
+        var down = document.getElementById("down");
+        var rotateValue = circle.style.transform;
+        var rotateSum;
+        up.onclick = function(){
+            rotateSum = rotateValue + "rotate(-90deg)";
+            circle.style.transform = rotateSum;
+            rotateValue = rotateSum;
+        }
+        down.onclick = function(){
+            rotateSum = rotateValue + "rotate(90deg)";
+            circle.style.transform = rotateSum;
+            rotateValue = rotateSum;
+        }
+    </script>
+</body>
+</html>

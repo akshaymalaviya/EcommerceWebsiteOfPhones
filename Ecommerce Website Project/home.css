@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}.font{
+    color: aliceblue;
+}
+nav{
+    position: sticky;
+    width: 80%;
+    margin: 20px auto;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    flex-basis: 20px;
+}
+.logo img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    z-index: 5;
+    
+}
+.nav-links ul{
+    display: inline-flex;
+    list-style: none;
+    z-index: 5;
+    background-color: #3B3B3B;
+    box-shadow: 2px 2px 12px #5F5E5E, -1px -1px 8px #5F5E5E;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    z-index: 5;
+    margin: 0 20px;
+    padding: 10px;
+}
+.nav-links ul li:hover{
+    background-color: #FCA787;
+    transform: scale(1.05); 
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: #fff;
+    z-index: 5;
+}
+.submenu{
+    display: none;
+    z-index: 6;
+}
+.nav-links ul li:hover .submenu{
+    display: block;
+    position: absolute; 
+    
+}
+.nav-links ul li:hover .submenu ul{
+    display: block;
+    margin: 10px;
+    z-index: 5;
+}
+.nav-links ul li:hover .submenu ul li{
+    width: 150px;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    border-radius: 0px;
+}
+.nav-links ul li:hover .submenu ul li:last-child{
+    border-bottom: none;
+}
+.nav-links ul li:hover .submenu ul li a:hover{
+    color: #FCA787;
+}
+
+/*------------*/
+
+.carouselExampleCaptions{
+    z-index: 0;
+}
+
+.row{
+    position: absolute;
+    top: -700%;
+    transform: translateY(-80);
+    left: -6%;
+    text-align: left;
+}
+.second-item{
+    position: absolute;
+    top: -700%;
+    transform: translateY(-800);
+    right: -4000%;
+    text-align: left;
+    color: black;
+}
+.btn0{
+    background-color: red;
+    height: 40px;
+    width: 150px;
+    outline: none;
+    border: none;
+    
+}
+.btn0 a{
+    text-decoration: none;
+    color:#fff;
+}
+.btn0 a:hover{
+    color: white;
+    transition: 0.4s;
+}
+.btn0:hover{
+    background-color: rgb(253, 81, 81);
+    transition: 0.4s;
+}
+/* ----------------*/
+.sub{
+    padding-left:375px  ;
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+.sub12{
+    padding-left:375px  ;
+    color: white;
+    background-color: black;
+    margin-top: 400px;
+    margin-bottom: 40px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+.container{
+    justify-content: center;
+}
+.symbol{
+    float: left;
+    margin-right: -20px;
+}
+.container .id{
+    left: 50%;
+}
+.line{
+    float: left;
+    cursor: pointer;
+}
+.far{
+    font-size-adjust: 18px;
+}
+.title{
+    font-weight: 600;
+    text-align: center;
+}
+
+/* ----------------*/
+
+.collection span{
+    color:yellowgreen;
+    font-size: 19px;
+    font-weight: 800;
+    padding-left: 5px;
+}
+.card{
+    border: none;
+    outline: none;
+    width: 300px;
+    box-shadow: #000;
+}
+.col-lg-3{
+    float: left;
+    margin: 0px;
+}
+.collection image{
+    height: 300px;
+    width: 150px;
+}
+.text-center{
+    margin: 40px;
+}
+.collection{
+    margin-bottom: 300px;
+}
+.collection input{
+    position: absolute;
+    height: 45px;
+    width: 110px;
+    background-color: yellowgreen;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-align: center;
+    top: 50%;
+    left: 33%;
+    opacity: 0;
+}
+.collection input:hover{
+    background-color: rgb(6, 199, 6);
+    transition: 0.5s;
+}
+.collection .card:hover input{
+    opacity: 1;
+    transition: 1s;
+}
+.collection .card:hover{
+    transform: scale(1.05);
+}
+.parallex{
+    background:  url(./images/mainPic2.jpg) no-repeat fixed ;
+    background-color: #000;
+    opacity: 0.8;
+    background-size: 100% 100%;
+    width: 100%;
+    height:700px;
+    margin-top: 400px;
+}
+.btn2{
+    height: 40px;
+    width: 120px;
+    background-color:rgb(207, 113, 250);
+    border: 2px white;
+    color: white;
+    border-radius: 4px;
+    margin-left: 110%;
+    margin-top: 500px;
+}
+.btn2 a{
+    text-decoration: none;
+    color: white;
+}
+.btn2:hover{
+    background-color: rgb(32, 6, 92);
+    transform: scale(1.03);
+    transition: 1s;
+}
+
+
+
+
